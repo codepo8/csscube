@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta type="description" content="A rotating cube using 3D CSS transforms">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>CSS Cube Demo</title>
+<link rel="stylesheet" href="styles.css" type="text/css" charset="utf-8">
+<link rel="stylesheet" href="csscube.css" type="text/css" charset="utf-8">
+</head>
+<body>
+  
+<div class="cubecontainer labeled">
+  <ul class="cube left">
+    <li class="front" data-label="Front">Front</li>
+    <li class="left" data-label="Left">Left</li>
+    <li class="back" data-label="Back">Back</li>
+    <li class="right" data-label="Right">Right</li>
+    <li class="bottom" data-label="Bottom">Bottom</li>
+    <li class="top" data-label="Top">Top</li>
+  </ul>
+</div>
+
+<div class="cubecontainer">
+  <ul class="cube">
+    <li class="front" data-label="Mittens">
+      <img src="http://placekitten.com/g/200/200" class="Mittens the cat">
+    </li>
+    <li class="left" data-label="Muffy">
+      <img src="http://placekitten.com/g/203/201" alt="Muffy the cat">
+    </li>
+    <li class="back" data-label="Azlan">
+      <img src="http://placekitten.com/g/199/199" alt="Azlan the cat">
+    </li>
+    <li class="right" data-label="Cleopatra">
+      <img src="http://placekitten.com/g/205/205" alt="Cleopatra the cat">
+    </li>
+    <li class="bottom" data-label="Elinor">
+      <img src="http://placekitten.com/g/202/202" alt="Elinor the cat">
+    </li>
+    <li class="top" data-label="Parcival">
+      <img src="http://placekitten.com/g/199/197" data-label="Ginger" alt="Parcival the cat">
+    </li>
+  </ul>
+</div>
+<footer><p>Written by 
+  <a href="http://christianheilmann.com/">Chris Heilmann</a> 
+  (<a href="http://twitter.com/codepo8">@codepo8</a>)
+</p></footer>
+
+<script src="csscube.js"></script>
+</body>
+</html>

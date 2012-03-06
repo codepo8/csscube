@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style:none;
+}
+html {
+  height: 100%;
+  background: #333;
+  background: -moz-linear-gradient(#333,#000);
+  background: -webkit-linear-gradient(#333,#000);
+  background: -ms-linear-gradient(#333,#000);
+  background: -o-linear-gradient(#333,#000);
+  background: linear-gradient(#333,#000);
+  font-family: 'MetaBold', sans-serif;
+}
+h1{
+  font-size: 24px;
+}
+nav a {
+  font-size: 30px;
+  text-decoration: none
+}
+a{ color: #369;}
+
+.perspective .cubecontainer nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.cube li { 
+  float: left;
+  padding-right: 1em;
+}
+.cube {
+  overflow: auto;
+}
+.perspective .cube li {
+  float: none;
+  padding: 0;
+}
+.perspective .cube {
+  overflow: visible;
+}
+.perspective .cubecontainer nav li {
+  display: inline;
+}
+.cube img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+
+.perspective .cube img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  padding: 0;
+}
+button {
+  border: none;
+  background: transparent;
+  font-weight: bold;
+  color: lime;
+  font-size: 15px;
+  padding: 5px 10px;
+}
+.perspective .labeled .cube li{
+  background: rgba(50,200,0,0.8);
+  font-size:50px;
+  line-height: 200px;
+  text-align: center;
+  height: 200px;
+  width: 200px;
+  float:none;
+}
+footer{color:#ccc}
