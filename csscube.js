@@ -1,6 +1,6 @@
 /*
   csscube by Christian Heilmann
-  Homepage: http://thewebrocks.com/demos/csscube
+  Homepage: http://thewebrocks.com/demos/cubes/
   Copyright (c)2012 Christian Heilmann
   Code licensed under the BSD License:
   http://wait-till-i.com/license.txt
